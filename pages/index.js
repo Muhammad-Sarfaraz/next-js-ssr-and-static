@@ -2,6 +2,7 @@ import Link from "next/link";
 import Navbar from "../components/NavBar";
 import Head from "next/head";
 
+
 function HomePage() {
   return (
     <>
@@ -11,6 +12,13 @@ function HomePage() {
       </Head>
       <main>
         <h1>My Blog</h1>
+        <ul>
+        <li>
+        <Link href="/posts/first-post">
+      <a>First Post </a>
+        </Link>
+        </li>
+        </ul>
       </main>
     </>
   );
